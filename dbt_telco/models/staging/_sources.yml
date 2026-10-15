@@ -1,0 +1,10 @@
+
+version: 2
+
+sources:
+  - name: bronze_telco
+    database: btqt2-telco-dbt-bigquery
+    schema: bronze_telco
+    tables:
+      - name: customers_raw
+        description: "Raw customer churn data loaded from CSV into Bronze layer"
