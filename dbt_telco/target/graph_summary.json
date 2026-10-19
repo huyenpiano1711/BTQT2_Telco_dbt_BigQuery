@@ -1,1 +1,0 @@
-{"_invocation_id": "da682681-13b6-4603-ad65-855e208cebef", "linked": {"0": {"name": "source.dbt_telco.bronze_telco.customers_raw", "type": "source", "succ": [1]}, "1": {"name": "model.dbt_telco.stg_telco_customers", "type": "model"}}}
